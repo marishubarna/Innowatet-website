@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Animation*/
 .fade-in {
   opacity: 0;
@@ -69,6 +70,8 @@
 }
 
 /*Animation*/
+=======
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
 body {
   margin: 0;
   align-items: center;
@@ -97,16 +100,76 @@ body {
 .button-header:hover {
   background-color: #fff;
   color: #343434;
+<<<<<<< HEAD
   border: 2px solid #003366;
+=======
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
 }
 
 .conteiner-header {
   display: flex;
   justify-content: space-evenly;
   margin: 30px 100px 0px 100px;
+<<<<<<< HEAD
   z-index: 1;
 }
 
+=======
+}
+
+.dropbtn {
+  background-color: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 16px;
+  gap: 4px;
+  color: #343434;
+  border: none;
+  background: none;
+  display: flex;
+  justify-content: space-evenly;
+  place-items: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  position: relative;
+  bottom: 3px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #ffffff;
+}
+
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
 .logo {
   margin-right: 650px;
 }
@@ -115,7 +178,11 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-style: normal;
+<<<<<<< HEAD
   font-size: 20px;
+=======
+  font-size: 16px;
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
   line-height: 16px;
   gap: 4px;
   color: #343434;
@@ -140,6 +207,7 @@ body {
   width: 100%;
 }
 
+<<<<<<< HEAD
 #drawer-toggle {
   display: none;
 }
@@ -149,6 +217,13 @@ body {
   flex-direction: row;
   place-items: center;
   gap: 15px;
+=======
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  place-items: center;
+  gap: 16px;
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
 }
 
 /*Section 2*/
@@ -315,10 +390,16 @@ body {
 
 .conteiner-header-section-4 {
   display: flex;
+<<<<<<< HEAD
   justify-content: center;
   place-items: center;
   gap: 950px;
   width: auto;
+=======
+  justify-content: space-between;
+  place-items: center;
+  width: 1346px;
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
 }
 
 .display-section-grid {
@@ -329,6 +410,7 @@ body {
 
 .display-container-on-right {
   display: flex;
+<<<<<<< HEAD
   flex-direction: column;
 }
 
@@ -346,11 +428,21 @@ body {
   padding: 15px;
   width: 100%;
   height: 100%;
+=======
+  justify-content: center;
+}
+
+.item-container-grid-squadr-style {
+  padding: 20px;
+  background-color: #003366;
+  border-radius: 14px;
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
 }
 
 .grid-container-section4 {
   display: grid;
   grid-template-areas: "Images Container-on-right";
+<<<<<<< HEAD
   column-gap: 18px;
 }
 
@@ -363,6 +455,17 @@ body {
   display: flex;
   flex-direction: column;
   place-content: center;
+=======
+  column-gap: 15px;
+}
+
+.header-container-section4-style-and-display {
+  height: auto;
+  width: 660px;
+  border-radius: 14px;
+  background-color: #003366;
+  padding: 15px;
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
 }
 
 .header-blue-container-section-4 {
@@ -372,8 +475,12 @@ body {
   font-weight: 500;
   font-style: normal;
   color: #fbfbfb;
+<<<<<<< HEAD
   width: 100%;
   text-align: center;
+=======
+  width: 699px;
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
 }
 
 .header-section-4 {
@@ -404,10 +511,16 @@ body {
 }
 
 .small-items-display {
+<<<<<<< HEAD
   display: flex;
   flex-direction: row;
   gap: 15px;
   padding: 10px;
+=======
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
 }
 
 .text-display-style-section4 {
@@ -443,6 +556,7 @@ body {
 .button-join:hover {
   color: #003366;
   background-color: #fbfbfb;
+<<<<<<< HEAD
   border: 2px solid #003366;
 }
 
@@ -455,6 +569,16 @@ body {
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
+=======
+}
+
+.card-container-courses {
+  margin: 0px 0px 30px 0px;
+  width: 1300px;
+  border: 2px solid #003366;
+  border-radius: 20px;
+  padding: 20px;
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
 }
 
 .conteiner-five {
@@ -485,14 +609,24 @@ body {
 }
 
 .icon {
+<<<<<<< HEAD
+=======
+  display: flex;
+  justify-content: space-evenly;
+  place-items: center;
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
   background-color: #eff3f7;
   border-radius: 45px;
   height: 47px;
   width: 135px;
+<<<<<<< HEAD
   padding: 10px;
   display: flex;
   flex-direction: row;
   gap: 6px;
+=======
+  padding: 10px 16px 10px 16px;
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
 }
 
 .icon-paragraf {
@@ -537,9 +671,14 @@ li {
 
 .price-container {
   display: flex;
+<<<<<<< HEAD
   flex-direction: row;
   place-items: center;
   gap: 10px;
+=======
+
+  column-gap: 16px;
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
 }
 
 .title-container-card-5 {
@@ -549,8 +688,11 @@ li {
   font-weight: 500;
   font-style: normal;
   color: #003366;
+<<<<<<< HEAD
   margin: 0;
   padding: 0;
+=======
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
 }
 
 .titleOfListBeforeList {
@@ -564,6 +706,7 @@ li {
 
 .text-line {
   display: flex;
+<<<<<<< HEAD
   justify-content: center;
   gap: 10px;
   place-items: center;
@@ -571,6 +714,15 @@ li {
 
 .text-display-section5 {
   margin: 0px;
+=======
+  justify-content: space-evenly;
+  place-items: center;
+  column-gap: 5px;
+}
+
+.text-display-section5 {
+  margin: 30px 100px 0px 100px;
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
 }
 
 .titleOfPrice,
@@ -583,8 +735,13 @@ li {
 }
 
 .ul-title {
+<<<<<<< HEAD
   font-size: 20px;
   line-height: 23px;
+=======
+  font-size: 18px;
+  line-height: 27px;
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   color: #343434;
@@ -594,7 +751,11 @@ li {
 
 .button-input-style {
   border-radius: 14px;
+<<<<<<< HEAD
   padding: 10px;
+=======
+  /* padding: 14px 30px 14px 30px; */
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
   margin: 30px 0px 0px 0px;
   background-color: #fbfbfb;
   height: 58px;
@@ -677,6 +838,7 @@ li {
 
 /*Section 7*/
 
+<<<<<<< HEAD
 .center-display {
   display: flex;
   justify-content: center;
@@ -695,6 +857,40 @@ li {
 .carousel-next {
   cursor: pointer;
   z-index: 10; /* Забезпечує, що кнопки будуть над іншими елементами */
+=======
+.carousel {
+  margin-bottom: 160px;
+}
+
+.carousel-control-next-icon {
+  position: relative;
+  top: 280px;
+  right: 550px;
+  color: #000;
+}
+
+.carousel-control-prev-icon {
+  position: absolute;
+  top: 430px;
+  left: 640px;
+  color: #003366;
+}
+
+.carousel-indicators {
+  position: relative;
+  top: 430px;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
+.center-display {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 20px;
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
 }
 
 .header-Testimonials {
@@ -728,9 +924,26 @@ li {
   color: #6b6b6b;
 }
 
+<<<<<<< HEAD
 .part-50-1,
 .part-50-2 {
   width: 750px;
+=======
+.part-50-1 {
+  width: 100%;
+  height: 100%;
+  background-color: #fbfbfb;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  column-gap: 16px;
+  border: 1px solid #003366;
+  border-radius: 12px;
+}
+
+.part-50-2 {
+  width: 100%;
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
   height: 100%;
   background-color: #fbfbfb;
   display: flex;
@@ -777,9 +990,15 @@ li {
 
 .display-center-footer-menu {
   display: flex;
+<<<<<<< HEAD
   justify-content: center;
   gap: 350px;
   place-items: center;
+=======
+
+  place-items: center;
+  column-gap: 249px;
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
 }
 
 .form-ask-a-questo {
@@ -834,6 +1053,7 @@ li {
 .Footer {
   display: flex;
   justify-content: center;
+<<<<<<< HEAD
   margin: 30px;
 }
 
@@ -852,12 +1072,67 @@ li {
 
 .paragraf-faq-content {
   width: 620px;
+=======
+  margin: 30px 100px 30px 180px;
+}
+
+.faq-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 12em;
+  max-width: 600px;
+  padding: 2em;
+  border-radius: 1em;
+  background-color: #003366;
+}
+
+.paragraf-faq-content {
+  width: 540px;
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
   color: #343434;
+<<<<<<< HEAD
   padding: 10px;
+=======
+}
+
+details {
+  font-size: 1em;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 8px;
+  position: relative;
+  max-width: 600px;
+  transition: all 0.3s ease-in-out;
+  padding: 20px;
+  border: 2px solid #343434;
+}
+
+summary {
+  user-select: none;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  color: #343434;
+  list-style-image: url(images/icons8-plus.svg);
+  padding: 10px;
+
+  /* padding: 1em; */
+}
+
+summary:webkit-details-marker {
+  display: none;
+}
+
+summary:focus {
+  outline: none;
+  border-bottom: 2px solid #003366;
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
 }
 
 .faq-title {
@@ -879,6 +1154,7 @@ li {
   right: 1em; */
   transition: all 150ms ease-out;
 }
+<<<<<<< HEAD
 
 #dropdownDivider {
   position: absolute; /* Або fixed, якщо потрібно */
@@ -2144,3 +2420,5 @@ li {
     width: 100%;
   }
 }
+=======
+>>>>>>> fa457bfc89d9bcc6d1deb05b698d15cafa115e43
